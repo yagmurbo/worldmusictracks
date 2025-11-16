@@ -10,10 +10,10 @@ The analysis follows:
 
 ## Metodology and Model
 
-Dataset: The analysis was performed on the WorldHits.csv dataset which includes various acoustic and measurable attributes of music tracks from https://www.kaggle.com/datasets/thebumpkin/300-world-music-tracks-with-spotify-data
-Preprocessing: Categorical columns (Track, Artist, Album) were dropped. Corellation analysis was performed to understand the relationship between features and Year.
-Model: A Linear Regression model was trained on the processed data.
-Splitting: Data was split into training (%80) and testing (%20).
+**Dataset**: The analysis was performed on the WorldHits.csv dataset which includes various acoustic and measurable attributes of music tracks from https://www.kaggle.com/datasets/thebumpkin/300-world-music-tracks-with-spotify-data  
+**Preprocessing:** Categorical columns (Track, Artist, Album) were dropped. Corellation analysis was performed to understand the relationship between features and Year.  
+**Model**: A Linear Regression model was trained on the processed data.  
+**Splitting**: Data was split into training (%80) and testing (%20).
 
 ## Results and Evaluation
 Trained Linear Regression model showed limited success in predicting the release year. The results indicate that a simple linear relationship is not enough to explain the variance in the track years.
